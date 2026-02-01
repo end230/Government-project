@@ -1,0 +1,33 @@
+# Updated Requirements for Enhanced GAHAR RAG System
+# These ADD to your existing requirements
+
+# Core ML Libraries
+torch>=2.1.0
+transformers>=4.36.0
+sentence-transformers>=2.2.2
+
+# Fine-tuning
+peft>=0.7.1  # For LoRA
+accelerate>=0.25.0
+datasets>=2.16.0
+
+# Keep your existing LangChain dependencies
+langchain==0.3.27
+langchain-core==0.3.83
+langchain-community==0.3.31
+langchain-text-splitters==0.3.11
+langsmith==0.6.7
+
+# Vector Store
+chromadb>=0.4.22
+
+# Document Processing
+pypdf>=3.17.0
+python-docx>=1.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.1
+
+# Optional: For better performance
+bitsandbytes>=0.41.3  # For 8-bit quantization
